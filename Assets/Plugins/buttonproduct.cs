@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class buttonproduct : MonoBehaviour {
-
 	public Text descricaotxt;
 	public string informations,store;
 	public Image img;

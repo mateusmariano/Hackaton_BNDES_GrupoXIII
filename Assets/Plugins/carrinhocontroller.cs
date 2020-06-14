@@ -7,9 +7,8 @@ public class carrinhocontroller : MonoBehaviour {
 
 	public List<GameObject> prodcar;
 	public Text addsucess;
-	public GameObject[] containers,buybuttons;
+	public GameObject[] containers,buybuttons,sucessfeedback;
 	public string storec1,storec2,storec3;
-
 	// Use this for initialization
 	void Start () {
 	
@@ -61,12 +60,17 @@ public class carrinhocontroller : MonoBehaviour {
 		addsucess.enabled = true;
 		Invoke("Sucessfeedbacktonormal",2);
 	}
-	public void GenerateCode(){
+	public void GenerateCode(int n){
 		usercontroller.code = Random.Range(1,4);
 		usercontroller.data = true;
+		sucessfeedback[n].SetActive(true);
+		Invoke("Sucessfeedbacktonormal",2);
 	}
 	void Sucessfeedbacktonormal(){
 		addsucess.enabled = false;
+		for(int i = 0; i < sucessfeedback.Length; i++){
+			sucessfeedback[i].SetActive(false);
+		}
 	}
 
 }

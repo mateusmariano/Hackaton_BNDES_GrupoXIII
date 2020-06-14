@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class productcontroller : MonoBehaviour {
-
+	
 	public Text descricao, informations,searchtxt,store;
 	public Image prodimg;
 	public Text[] productsnames;
