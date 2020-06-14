@@ -1,13 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\Grupo_XIII - Cópia\Assets\Plugins\SQLConnection.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\carrinhocontroller.cs">
     <Files>
-      <File FileName="..\Grupo_XIII - Cópia\Assets\Plugins\SQLConnection.cs" Line="17" Column="21" />
-      <File FileName="..\Grupo_XIII - Cópia\Assets\Plugins\productcontroller.cs" Line="26" Column="2" />
-      <File FileName="..\Grupo_XIII - Cópia\Assets\Plugins\carrinhocontroller.cs" Line="27" Column="2" />
-      <File FileName="..\Grupo_XIII - Cópia\Assets\Plugins\layoutspasscontroller.cs" Line="26" Column="2" />
-      <File FileName="..\Grupo_XIII - Cópia\Assets\Plugins\usercontroller.cs" Line="25" Column="2" />
-      <File FileName="..\Grupo_XIII - Cópia\Assets\Plugins\buttonproduct.cs" Line="15" Column="4" />
+      <File FileName="Assets\Plugins\buttonproduct.cs" Line="5" Column="45" />
+      <File FileName="Assets\Plugins\productcontroller.cs" Line="7" Column="1" />
+      <File FileName="Assets\Plugins\usercontroller.cs" Line="7" Column="1" />
+      <File FileName="Assets\Plugins\layoutspasscontroller.cs" Line="6" Column="1" />
+      <File FileName="Assets\Plugins\carrinhocontroller.cs" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
